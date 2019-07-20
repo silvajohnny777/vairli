@@ -16,11 +16,11 @@ import { NavLink } from "react-router-dom";
                                 <i className="menu-icon fas fa-globe-americas"></i>
                                 <span className="menu-item-clickable">Virtual Airlines </span>
                                 </NavLink></li>
-                            <li><NavLink class="is-active">
+                            <li><NavLink to="./pilot_area">
                                 <i className="menu-icon fas fa-user"></i>
                                 <span className="menu-item-clickable">My area </span>
                                 </NavLink></li>
-                            <li><NavLink>
+                            <li><NavLink to="./flight_booking">
                                 <i className="menu-icon fas fa-paper-plane"></i>
                                 <span className="menu-item-clickable">Book a flight </span>
                                 </NavLink></li>

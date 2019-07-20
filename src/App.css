@@ -60,11 +60,25 @@
     max-width: 1200px;
   }
 
+  .hero-description-pilot-area {
+    padding-top: 5px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #f1f1f1;
+    background-image: url('https://svgsilh.com/svg/1552354.svg');
+    background-repeat: no-repeat;
+    background-size: 10%;
+    background-position-x: 85%;
+  }
+
   .menu-footer {
     position: fixed;
     border-top: 1px solid #f1f1f1;
     bottom: 0;
     width: 13%;
+  }
+
+  .info-description-pilot-area {
+    margin-left: 26%;
   }
   
   .navbar-end {
