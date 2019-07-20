@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 
     const PageNotFound = () => {
         return (
@@ -10,12 +11,12 @@ import React from "react";
                                 Oh! Grounding your plane? 
                             </h1>
                             <h3 className="title is-5 has-text-grey-light">
-                                Sorry, but we couldn't find the page you are looking for :(
+                                Sorry, but the page you are looking for doesn't exist :(
                             </h3>
                             <h3 className="title is-5">
-                                <a className="button is-primary">
+                                <NavLink className="button is-primary" to="/">
                                     <strong><i className="far fa-paper-plane"></i> Home</strong>
-                                </a>
+                                </NavLink>
                             </h3>
                 </div>
             </div>

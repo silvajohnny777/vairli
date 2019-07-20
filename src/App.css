@@ -19,6 +19,53 @@
 	margin-left: 30px;
   font-size: 18px;
   }
+
+  .menu {
+    position: fixed;
+    background-color:#fcfcfc;
+    height: 100%;
+    border-right: 1px solid #eaeaea;
+    width: 13%;
+  }
+
+  .menu-icon {
+    font-size: 40px;
+    padding-right: 15px;
+    color: #707070;
+  }
+
+  .menu-item-clickable {
+    margin-bottom: 15%;
+    vertical-align: 45%;
+  }
+
+  .menu-header {
+    align-content: center;
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+
+  .main-panel-content {
+    position: fixed;
+    margin-left: 26%;
+    padding-top: 2%;
+    background-color: yellow;
+    height: 102%;
+    width: 100%;
+
+    padding-right: 25px;
+    padding-left: 25px;
+    padding-top: 55px;
+    max-width: 1200px;
+  }
+
+  .menu-footer {
+    position: fixed;
+    border-top: 1px solid #f1f1f1;
+    bottom: 0;
+    width: 13%;
+  }
   
   .navbar-end {
 	margin-right: 30px;	
@@ -32,6 +79,7 @@
   .container-login {
     margin-top: 30%;
     margin-bottom: 13%;
+    margin-left: -23%;
   }
 
   .first-section {
@@ -42,6 +90,17 @@
     background-position-y: 100%;
     background-size: 30%;
   }
+
+  .column-login-second {
+    position: fixed;
+    background-image: url('https://images.pexels.com/photos/101522/pexels-photo-101522.jpeg?cs=srgb&dl=cockpit-flight-people-101522.jpg&fm=jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 102%; /* For 100% screen height */
+    width:  70%; 
+    margin-left: 40%;
+  }
+
 
   .login-section {
     margin-top: -7%;

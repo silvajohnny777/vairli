@@ -7,6 +7,7 @@ import Main_section from './Main_section';
 import Second_section from './Second_section';
 import login from "./component/login"
 import PageNotFound from "./component/PageNotFound"
+import pilot_area from "./auth/panel/pilot_area";
 
 class App extends React.Component {
 
@@ -34,6 +35,7 @@ class App extends React.Component {
           <Switch>
             <Route path="/" component={Main_section} exact/>
             <Route path="/login" component={login} />
+            <Route path="/panel/pilot_area" component={pilot_area} />
             <Route component={PageNotFound} />
           </Switch>
         </BrowserRouter>
